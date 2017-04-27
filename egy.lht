@@ -438,74 +438,194 @@ ha:pcb-rnd-board-v1 {
       group=0
 
        li:objects {
-        ha:text.303 {
+        ha:text.305 {
          string={$ver=}; x=15.45mm; y=25.7mm; scale=88; fid=0; direction=0;
          ha:flags {
           clearline=1
          }
         }
-        ha:text.304 {
+        ha:text.306 {
          string=darabok-1; x=15.55mm; y=23.95mm; scale=88; fid=0; direction=0;
          ha:flags {
           clearline=1
          }
         }
-        ha:text.356 {
+        ha:text.358 {
          string=Silk Silk Ag-Au-Sn; x=90.5511811mil; y=21.55mm; scale=100; fid=2; direction=1;
          ha:flags {
           clearline=1
          }
         }
-        ha:text.360 {
+        ha:text.362 {
          string=Silk Silk Ag-Au-Sn; x=5.8mm; y=21.35mm; scale=90; fid=2; direction=1;
          ha:flags {
           clearline=1
          }
         }
-        ha:text.369 {
+        ha:text.371 {
          string=Silk Silk Ag-Au-Sn; x=9.95mm; y=21.7mm; scale=80; fid=2; direction=1;
          ha:flags {
           clearline=1
          }
         }
-        ha:text.370 {
+        ha:text.372 {
          string=Silk Silk Ag-Au-Sn; x=13.45mm; y=21.5mm; scale=70; fid=2; direction=1;
          ha:flags {
           clearline=1
          }
         }
-        ha:text.371 {
+        ha:text.373 {
          string=Silk Silk Ag-Au-Sn; x=16.35mm; y=21.7mm; scale=60; fid=2; direction=1;
          ha:flags {
           clearline=1
          }
         }
-        ha:text.372 {
+        ha:text.374 {
          string=Silk Silk Ag-Au-Sn; x=19.85mm; y=21.5mm; scale=50; fid=2; direction=1;
          ha:flags {
           clearline=1
          }
         }
-        ha:text.373 {
+        ha:text.375 {
          string=Silk Silk Ag-Au-Sn; x=23.2mm; y=22.1mm; scale=40; fid=2; direction=1;
          ha:flags {
           clearline=1
          }
         }
-        ha:text.374 {
+        ha:text.376 {
          string=Silk Silk Ag-Au-Sn; x=1.0511811in; y=862.20472441mil; scale=30; fid=2; direction=1;
          ha:flags {
           clearline=1
          }
         }
-        ha:text.375 {
+        ha:text.377 {
          string=Silk Silk Ag-Au-Sn; x=29.7mm; y=21.75mm; scale=20; fid=2; direction=1;
          ha:flags {
           clearline=1
          }
         }
-        ha:text.376 {
+        ha:text.378 {
          string=Silk Silk Ag-Au-Sn; x=33.2mm; y=21.55mm; scale=10; fid=2; direction=1;
+         ha:flags {
+          clearline=1
+         }
+        }
+        ha:text.388 {
+         string=Dark; x=37.6mm; y=7.2mm; scale=100; fid=2; direction=3;
+         ha:flags {
+          clearline=1
+         }
+        }
+        ha:text.389 {
+         string=Light; x=37.4mm; y=13.1mm; scale=100; fid=2; direction=3;
+         ha:flags {
+          clearline=1
+         }
+        }
+        ha:text.400 {
+         string=Dark; x=30.75mm; y=7.0mm; scale=100; fid=2; direction=3;
+         ha:flags {
+          clearline=1
+         }
+        }
+        ha:text.401 {
+         string=Dark; x=27.55mm; y=6.9mm; scale=100; fid=2; direction=3;
+         ha:flags {
+          clearline=1
+         }
+        }
+        ha:text.402 {
+         string=Dark; x=23.9mm; y=6.95mm; scale=100; fid=2; direction=3;
+         ha:flags {
+          clearline=1
+         }
+        }
+        ha:text.403 {
+         string=Dark; x=21.15mm; y=6.7mm; scale=100; fid=2; direction=3;
+         ha:flags {
+          clearline=1
+         }
+        }
+        ha:text.404 {
+         string=Dark; x=18.15mm; y=6.9mm; scale=100; fid=2; direction=3;
+         ha:flags {
+          clearline=1
+         }
+        }
+        ha:text.405 {
+         string=Dark; x=15.05mm; y=6.9mm; scale=100; fid=2; direction=3;
+         ha:flags {
+          clearline=1
+         }
+        }
+        ha:text.406 {
+         string=Dark; x=11.5mm; y=6.7mm; scale=100; fid=2; direction=3;
+         ha:flags {
+          clearline=1
+         }
+        }
+        ha:text.407 {
+         string=Dark; x=8.05mm; y=6.25mm; scale=100; fid=2; direction=3;
+         ha:flags {
+          clearline=1
+         }
+        }
+        ha:text.408 {
+         string=Dark; x=5.1mm; y=5.75mm; scale=100; fid=2; direction=3;
+         ha:flags {
+          clearline=1
+         }
+        }
+        ha:text.410 {
+         string=Light; x=32.9mm; y=12.85mm; scale=100; fid=2; direction=3;
+         ha:flags {
+          clearline=1
+         }
+        }
+        ha:text.411 {
+         string=Light; x=30.45mm; y=12.8mm; scale=100; fid=2; direction=3;
+         ha:flags {
+          clearline=1
+         }
+        }
+        ha:text.412 {
+         string=Light; x=27.7mm; y=12.45mm; scale=100; fid=2; direction=3;
+         ha:flags {
+          clearline=1
+         }
+        }
+        ha:text.413 {
+         string=Light; x=25.35mm; y=11.95mm; scale=100; fid=2; direction=3;
+         ha:flags {
+          clearline=1
+         }
+        }
+        ha:text.414 {
+         string=Light; x=22.8mm; y=11.6mm; scale=100; fid=2; direction=3;
+         ha:flags {
+          clearline=1
+         }
+        }
+        ha:text.415 {
+         string=Light; x=20.9mm; y=11.1mm; scale=100; fid=2; direction=3;
+         ha:flags {
+          clearline=1
+         }
+        }
+        ha:text.416 {
+         string=Light; x=19.25mm; y=10.8mm; scale=100; fid=2; direction=3;
+         ha:flags {
+          clearline=1
+         }
+        }
+        ha:text.417 {
+         string=Light; x=17.75mm; y=10.55mm; scale=100; fid=2; direction=3;
+         ha:flags {
+          clearline=1
+         }
+        }
+        ha:text.418 {
+         string=Light; x=16.0mm; y=9.95mm; scale=100; fid=2; direction=3;
          ha:flags {
           clearline=1
          }
@@ -56877,7 +56997,7 @@ ha:pcb-rnd-board-v1 {
      bloat = 6.00 mil
      clearance = 6.00 mil
       text_font_id = 2
-      text_scale = 5744
+      text_scale = 100
     }
     ha:editor {
      live_routing = false
