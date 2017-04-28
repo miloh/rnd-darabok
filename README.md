@@ -3,7 +3,7 @@ rnd-darabok
 pcb pieces created with pcb-rnd 
 
 
-1. egy (one) - this pcb-rnd lihata layout if for testing layout as well as fabrication capabilities
+1. egy (one) - this pcb-rnd lihata layout is for testing a layout engine as well as fabrication capabilities, it tests the following:
  * reproduce plated holes from 0.1mm to 1mm in 0.1mm increments
  * reproduce silk markings and exposed Ag-Au-Sn marking in sizes from A to B in 10% size incrmeents
  * reproduce Cu traces from A to B in X increments
@@ -13,12 +13,12 @@ pcb pieces created with pcb-rnd
    - gradient from silk layer & mask layer
    - gradient from Au-Ag-Sn to Mask
    - gradient from Au-Ag-Sn to Sub-mask
- * checkerboards
+ * checkerboards in M by N rectangle with X by Y squares
     - checkerboard sample area in sub-mask & mask area 
     - checkerboard sample area in conductive & mask re
     - checkerboard sample area in sub-mask and conductive area 
 
-2. kettő
+2. kettő (two)
  * octagonal pendant 
    - tests editmask and hole capabilities
 
