@@ -15389,7 +15389,7 @@ ha:pcb-rnd-board-v1 {
      }
     }
     ha:element.40799 {
-     x=0.381mm; y=15.1665mm;
+     x=0.381mm; y=15.00mm;
      ha:flags {
       onsolder=1
      }
@@ -30440,7 +30440,7 @@ ha:pcb-rnd-board-v1 {
      }
     }
     ha:element.45811 {
-     x=0.381mm; y=10.333mm;
+     x=0.381mm; y=10.00mm;
      ha:flags {
       onsolder=1
      }
@@ -45491,7 +45491,7 @@ ha:pcb-rnd-board-v1 {
      }
     }
     ha:element.30775 {
-     x=0.381mm; y=24.8335mm;
+     x=0.381mm; y=25.0mm;
      ha:flags {
       onsolder=1
      }
@@ -60641,72 +60641,70 @@ ha:pcb-rnd-board-v1 {
 
        li:objects {
         ha:text.812861 {
-         string=Silk Silk Ag-Au-Sn Dark Light; 
-	 x=45.0mm; y=3.50mm; scale=10; fid=2; direction=1;
+         string=Silk Silk Ag-Au-Sn Dark Light; x=26.50mm; y=16.90mm; scale=10; fid=2; direction=0;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
         ha:text.812862 {
-         string=Silk Silk Ag-Au-Sn Dark Light;
-	 x=44.5mm; y=3.50mm; scale=20; fid=2; direction=1;
-         ha:flags {
+         string=Silk Silk Ag-Au-Sn Dark Light; x=26.50mm; y=16.20mm; scale=20; fid=2; direction=0; 
+	 ha:flags {
           clearline=1
           onsolder=1
          }
         }
         ha:text.812863 {
-         string=Silk Silk Ag-Au-Sn Dark Light; x=43.5mm; y=3.50mm; scale=30; fid=2; direction=1;
+         string=Silk Silk Ag-Au-Sn Dark Light; x=26.50mm; y=15.40mm; scale=30; fid=2; direction=0;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
         ha:text.812864 {
-         string=Silk Silk Ag-Au-Sn Dark Light; x=42.0mm; y=3.50mm; scale=40; fid=2; direction=1;
+         string=Silk Silk Ag-Au-Sn Dark Light; x=26.50mm; y=14.50mm; scale=40; fid=2; direction=0;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
         ha:text.812865 {
-         string=Silk Silk Ag-Au-Sn Dark Light; x=40.5mm; y=3.50mm; scale=50; fid=2; direction=1;
+         string=Silk Silk Ag-Au-Sn Dark Light; x=26.50mm; y=13.50mm; scale=50; fid=2; direction=0;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
         ha:text.812866 {
-         string=Silk Silk Ag-Au-Sn Dark Light; x=38.5mm; y=3.50mm; scale=60; fid=2; direction=1;
+         string=Silk Silk Ag-Au-Sn Dark Light; x=26.50mm; y=12.40mm; scale=60; fid=2; direction=0;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
         ha:text.812867 {
-         string=Silk Silk Ag-Au-Sn Dark Light; x=36.5mm; y=3.50mm; scale=70; fid=2; direction=1;
+         string=Silk Silk Ag-Au-Sn Dark Light; x=26.50mm; y=11.2mm; scale=70; fid=2; direction=0;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
         ha:text.812868 {
-         string=Silk Silk Ag-Au-Sn Dark Light; x=35.0mm; y=3.50mm; scale=80; fid=2; direction=1;
+         string=Silk Silk Ag-Au-Sn Dark Light; x=26.50mm; y=9.90mm; scale=80; fid=2; direction=0;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
         ha:text.812869 {
-         string=Silk Silk Ag-Au-Sn Dark Light; x=32.5mm; y=3.50mm; scale=90; fid=2; direction=1;
+         string=Silk Silk Ag-Au-Sn Dark Light; x=26.50mm; y=8.50mm; scale=90; fid=2; direction=0;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
         ha:text.812870 {
-         string=Silk Silk Ag-Au-Sn Dark Light; x=30.0mm; y=3.50mm; scale=100; fid=2; direction=1;
+         string=Silk Silk Ag-Au-Sn Dark Light; x=26.50mm; y=7.00mm; scale=100; fid=2; direction=0;
          ha:flags {
           clearline=1
           onsolder=1
