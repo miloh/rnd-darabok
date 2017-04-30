@@ -9,8 +9,8 @@ ha:pcb-rnd-board-v1 {
     {PCB::conf::plugins/hid_gtk/window_geometry/keyref_x}=0
     {PCB::conf::plugins/hid_gtk/window_geometry/keyref_y}=0
     {PCB::loader}=geda/pcb - nanometer
-    {PCB::conf::plugins/hid_gtk/window_geometry/top_x}=0
-    {PCB::conf::plugins/hid_gtk/window_geometry/top_y}=27
+    {PCB::conf::plugins/hid_gtk/window_geometry/top_x}=2326
+    {PCB::conf::plugins/hid_gtk/window_geometry/top_y}=0
     {PCB::conf::plugins/hid_gtk/window_geometry/keyref_height}=0
     {PCB::conf::plugins/hid_gtk/window_geometry/pinout_y}=0
     {PCB::conf::plugins/hid_gtk/window_geometry/pinout_x}=0
@@ -21,7 +21,7 @@ ha:pcb-rnd-board-v1 {
     {PCB::conf::plugins/hid_gtk/window_geometry/log_height}=415
     {PCB::conf::plugins/hid_gtk/window_geometry/drc_x}=0
     {PCB::conf::plugins/hid_gtk/window_geometry/drc_y}=0
-    {PCB::conf::plugins/hid_gtk/window_geometry/top_width}=677
+    {PCB::conf::plugins/hid_gtk/window_geometry/top_width}=702
     {PCB::conf::plugins/hid_gtk/window_geometry/drc_width}=0
     {PCB::conf::plugins/hid_gtk/window_geometry/library_height}=255
     {PCB::conf::plugins/hid_gtk/window_geometry/pinout_height}=0
@@ -31,7 +31,7 @@ ha:pcb-rnd-board-v1 {
     {PCB::conf::plugins/hid_gtk/window_geometry/log_width}=1288
     {PCB::conf::plugins/hid_gtk/window_geometry/netlist_x}=0
     {PCB::conf::plugins/hid_gtk/window_geometry/netlist_y}=0
-    {PCB::conf::plugins/hid_gtk/window_geometry/top_height}=258
+    {PCB::conf::plugins/hid_gtk/window_geometry/top_height}=259
     {PCB::conf::plugins/hid_gtk/window_geometry/keyref_width}=0
     {PCB::conf::plugins/hid_gtk/window_geometry/library_x}=427
     {PCB::conf::plugins/hid_gtk/window_geometry/library_y}=237
@@ -345,19 +345,19 @@ ha:pcb-rnd-board-v1 {
 
      li:objects {
       ha:text.35784 {
-       string={bitmap(text=/home/miloh/repos/rnd-darabok/gradient.pbm, pixel_size=125.00um)}; x=26.4mm; y=18.55mm; scale=100; fid=0; direction=0; role=desc;
+       string={bitmap(text=/home/miloh/repos/rnd-darabok/gradient.pbm, pixel_size=125.00um)}; x=7.7mm; y=26.65mm; scale=100; fid=0; direction=0; role=desc;
        ha:flags {
         onsolder=1
        }
       }
       ha:text.35785 {
-       string=BM2; x=26.4mm; y=18.55mm; scale=100; fid=0; direction=0; role=name;
+       string=BM2; x=7.7mm; y=26.65mm; scale=100; fid=0; direction=0; role=name;
        ha:flags {
         onsolder=1
        }
       }
       ha:text.35786 {
-       string=bitmap(/home/miloh/repos/rnd-darabok/gradient.pbm,125.00um); x=26.4mm; y=18.55mm; scale=100; fid=0; direction=0; role=value;
+       string=bitmap(/home/miloh/repos/rnd-darabok/gradient.pbm,125.00um); x=7.7mm; y=26.65mm; scale=100; fid=0; direction=0; role=value;
        ha:flags {
         onsolder=1
        }
@@ -15396,19 +15396,19 @@ ha:pcb-rnd-board-v1 {
 
      li:objects {
       ha:text.40796 {
-       string={bitmap(text=/home/miloh/repos/rnd-darabok/gradient.pbm, pixel_size=125.00um)}; x=25.9mm; y=13.95mm; scale=100; fid=0; direction=0; role=desc;
+       string={bitmap(text=/home/miloh/repos/rnd-darabok/gradient.pbm, pixel_size=125.00um)}; x=13.5mm; y=26.65mm; scale=100; fid=0; direction=0; role=desc;
        ha:flags {
         onsolder=1
        }
       }
       ha:text.40797 {
-       string=BM3; x=25.9mm; y=13.95mm; scale=100; fid=0; direction=0; role=name;
+       string=BM3; x=13.5mm; y=26.65mm; scale=100; fid=0; direction=0; role=name;
        ha:flags {
         onsolder=1
        }
       }
       ha:text.40798 {
-       string=bitmap(/home/miloh/repos/rnd-darabok/gradient.pbm,125.00um); x=25.9mm; y=13.95mm; scale=100; fid=0; direction=0; role=value;
+       string=bitmap(/home/miloh/repos/rnd-darabok/gradient.pbm,125.00um); x=13.5mm; y=26.65mm; scale=100; fid=0; direction=0; role=value;
        ha:flags {
         onsolder=1
        }
@@ -30447,19 +30447,19 @@ ha:pcb-rnd-board-v1 {
 
      li:objects {
       ha:text.45808 {
-       string={bitmap(text=/home/miloh/repos/rnd-darabok/gradient.pbm, pixel_size=125.00um)}; x=26.0mm; y=9.55mm; scale=100; fid=0; direction=0; role=desc;
+       string={bitmap(text=/home/miloh/repos/rnd-darabok/gradient.pbm, pixel_size=125.00um)}; x=20.0mm; y=26.65mm; scale=100; fid=0; direction=0; role=desc;
        ha:flags {
         onsolder=1
        }
       }
       ha:text.45809 {
-       string=BM4; x=26.0mm; y=9.55mm; scale=100; fid=0; direction=0; role=name;
+       string=BM4; x=20.0mm; y=26.65mm; scale=100; fid=0; direction=0; role=name;
        ha:flags {
         onsolder=1
        }
       }
       ha:text.45810 {
-       string=bitmap(/home/miloh/repos/rnd-darabok/gradient.pbm,125.00um); x=26.0mm; y=9.55mm; scale=100; fid=0; direction=0; role=value;
+       string=bitmap(/home/miloh/repos/rnd-darabok/gradient.pbm,125.00um); x=20.0mm; y=26.65mm; scale=100; fid=0; direction=0; role=value;
        ha:flags {
         onsolder=1
        }
@@ -45498,19 +45498,19 @@ ha:pcb-rnd-board-v1 {
 
      li:objects {
       ha:text.30772 {
-       string={bitmap(text=/home/miloh/repos/rnd-darabok/gradient.pbm, pixel_size=125.00um)}; x=26.2mm; y=23.85mm; scale=100; fid=0; direction=0; role=desc;
+       string={bitmap(text=/home/miloh/repos/rnd-darabok/gradient.pbm, pixel_size=125.00um)}; x=1.6mm; y=26.75mm; scale=100; fid=0; direction=0; role=desc;
        ha:flags {
         onsolder=1
        }
       }
       ha:text.30773 {
-       string=BM1; x=26.2mm; y=23.85mm; scale=100; fid=0; direction=0; role=name;
+       string=BM1; x=1.6mm; y=26.75mm; scale=100; fid=0; direction=0; role=name;
        ha:flags {
         onsolder=1
        }
       }
       ha:text.30774 {
-       string=bitmap(/home/miloh/repos/rnd-darabok/gradient.pbm,125.00um); x=26.2mm; y=23.85mm; scale=100; fid=0; direction=0; role=value;
+       string=bitmap(/home/miloh/repos/rnd-darabok/gradient.pbm,125.00um); x=1.6mm; y=26.75mm; scale=100; fid=0; direction=0; role=value;
        ha:flags {
         onsolder=1
        }
@@ -60640,71 +60640,141 @@ ha:pcb-rnd-board-v1 {
       group=6
 
        li:objects {
-        ha:text.812861 {
-         string=Silk Silk Ag-Au-Sn Dark Light; x=26.50mm; y=16.90mm; scale=10; fid=2; direction=0;
+        ha:text.2015669 {
+         string=Silk Silk Ag-Au-Sn Dark Light; x=26.5mm; y=15.55mm; scale=10; fid=2; direction=0;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
-        ha:text.812862 {
-         string=Silk Silk Ag-Au-Sn Dark Light; x=26.50mm; y=16.20mm; scale=20; fid=2; direction=0; 
-	 ha:flags {
-          clearline=1
-          onsolder=1
-         }
-        }
-        ha:text.812863 {
-         string=Silk Silk Ag-Au-Sn Dark Light; x=26.50mm; y=15.40mm; scale=30; fid=2; direction=0;
+        ha:text.2015670 {
+         string=Silk Silk Ag-Au-Sn Dark Light; x=26.5mm; y=15.1mm; scale=20; fid=2; direction=0;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
-        ha:text.812864 {
-         string=Silk Silk Ag-Au-Sn Dark Light; x=26.50mm; y=14.50mm; scale=40; fid=2; direction=0;
+        ha:text.2015671 {
+         string=Silk Silk Ag-Au-Sn Dark Light; x=26.5mm; y=14.525mm; scale=30; fid=2; direction=0;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
-        ha:text.812865 {
-         string=Silk Silk Ag-Au-Sn Dark Light; x=26.50mm; y=13.50mm; scale=50; fid=2; direction=0;
+        ha:text.2015672 {
+         string=Silk Silk Ag-Au-Sn Dark Light; x=26.5mm; y=13.825mm; scale=40; fid=2; direction=0;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
-        ha:text.812866 {
-         string=Silk Silk Ag-Au-Sn Dark Light; x=26.50mm; y=12.40mm; scale=60; fid=2; direction=0;
+        ha:text.2015673 {
+         string=Silk Silk Ag-Au-Sn Dark Light; x=26.5mm; y=13.0mm; scale=50; fid=2; direction=0;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
-        ha:text.812867 {
-         string=Silk Silk Ag-Au-Sn Dark Light; x=26.50mm; y=11.2mm; scale=70; fid=2; direction=0;
+        ha:text.2015674 {
+         string=Silk Silk Ag-Au-Sn Dark Light; x=26.5mm; y=12.05mm; scale=60; fid=2; direction=0;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
-        ha:text.812868 {
-         string=Silk Silk Ag-Au-Sn Dark Light; x=26.50mm; y=9.90mm; scale=80; fid=2; direction=0;
+        ha:text.2015675 {
+         string=Silk Silk Ag-Au-Sn Dark Light; x=26.5mm; y=10.975mm; scale=70; fid=2; direction=0;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
-        ha:text.812869 {
-         string=Silk Silk Ag-Au-Sn Dark Light; x=26.50mm; y=8.50mm; scale=90; fid=2; direction=0;
+        ha:text.2015676 {
+         string=Silk Silk Ag-Au-Sn Dark Light; x=26.5mm; y=9.775mm; scale=80; fid=2; direction=0;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
-        ha:text.812870 {
-         string=Silk Silk Ag-Au-Sn Dark Light; x=26.50mm; y=7.00mm; scale=100; fid=2; direction=0;
+        ha:text.2015677 {
+         string=Silk Silk Ag-Au-Sn Dark Light; x=26.5mm; y=8.45mm; scale=90; fid=2; direction=0;
+         ha:flags {
+          clearline=1
+          onsolder=1
+         }
+        }
+        ha:text.2015678 {
+         string=Silk Silk Ag-Au-Sn Dark Light; x=26.5mm; y=7.0mm; scale=100; fid=2; direction=0;
+         ha:flags {
+          clearline=1
+          onsolder=1
+         }
+        }
+        ha:text.2015679 {
+         string=1.125; x=25.6mm; y=6.55mm; scale=35; fid=2; direction=1;
+         ha:flags {
+          clearline=1
+          onsolder=1
+         }
+        }
+        ha:text.2015680 {
+         string=1.00; x=25.2mm; y=8.05mm; scale=35; fid=2; direction=1;
+         ha:flags {
+          clearline=1
+          onsolder=1
+         }
+        }
+        ha:text.2015681 {
+         string=0.875; x=25.6mm; y=9.15mm; scale=35; fid=2; direction=1;
+         ha:flags {
+          clearline=1
+          onsolder=1
+         }
+        }
+        ha:text.2015682 {
+         string=0.75; x=25.2mm; y=10.65mm; scale=35; fid=2; direction=1;
+         ha:flags {
+          clearline=1
+          onsolder=1
+         }
+        }
+        ha:text.2015683 {
+         string=0.625; x=25.7mm; y=11.85mm; scale=30; fid=2; direction=1;
+         ha:flags {
+          clearline=1
+          onsolder=1
+         }
+        }
+        ha:text.2015684 {
+         string=0.50; x=25.2mm; y=12.85mm; scale=30; fid=2; direction=1;
+         ha:flags {
+          clearline=1
+          onsolder=1
+         }
+        }
+        ha:text.2015685 {
+         string=0.375; x=25.7mm; y=13.45mm; scale=30; fid=2; direction=1;
+         ha:flags {
+          clearline=1
+          onsolder=1
+         }
+        }
+        ha:text.2015686 {
+         string=0.25; x=25.2mm; y=14.35mm; scale=30; fid=2; direction=1;
+         ha:flags {
+          clearline=1
+          onsolder=1
+         }
+        }
+        ha:text.2015687 {
+         string=0.125; x=25.7mm; y=15.05mm; scale=30; fid=2; direction=1;
+         ha:flags {
+          clearline=1
+          onsolder=1
+         }
+        }
+        ha:text.2015688 {
+         string=1.25; x=25.2mm; y=5.05mm; scale=35; fid=2; direction=1;
          ha:flags {
           clearline=1
           onsolder=1
@@ -60718,13 +60788,13 @@ ha:pcb-rnd-board-v1 {
       group=0
 
        li:objects {
-        ha:text.812871 {
+        ha:text.2015689 {
          string={$ver=}; x=15.45mm; y=25.7mm; scale=88; fid=0; direction=0;
          ha:flags {
           clearline=1
          }
         }
-        ha:text.812872 {
+        ha:text.2015690 {
          string=darabok-1; x=15.55mm; y=23.95mm; scale=88; fid=0; direction=0;
          ha:flags {
           clearline=1
@@ -117152,10 +117222,10 @@ ha:pcb-rnd-board-v1 {
        drc_x = 0
        drc_y = 0
        netlist_height = 0
-       top_height = 258
+       top_height = 259
        library_width = 504
        drc_height = 0
-       top_width = 677
+       top_width = 702
        drc_width = 0
        keyref_width = 0
        keyref_height = 0
@@ -117164,8 +117234,8 @@ ha:pcb-rnd-board-v1 {
        keyref_y = 0
        log_width = 1288
        library_height = 255
-       top_x = 0
-       top_y = 27
+       top_x = 2326
+       top_y = 0
        log_height = 415
       }
      }
