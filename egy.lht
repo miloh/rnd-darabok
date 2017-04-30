@@ -60640,211 +60640,73 @@ ha:pcb-rnd-board-v1 {
       group=6
 
        li:objects {
-        ha:text.532094 {
-         string=Light; x=46.2mm; y=25.65mm; scale=100; fid=2; direction=3;
+        ha:text.812861 {
+         string=Silk Silk Ag-Au-Sn Dark Light; 
+	 x=45.0mm; y=3.50mm; scale=10; fid=2; direction=1;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
-        ha:text.532095 {
-         string=Dark; x=45.2mm; y=21.95mm; scale=100; fid=2; direction=3;
+        ha:text.812862 {
+         string=Silk Silk Ag-Au-Sn Dark Light;
+	 x=44.5mm; y=3.50mm; scale=20; fid=2; direction=1;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
-        ha:text.532096 {
-         string=Dark; x=43.7mm; y=21.65mm; scale=100; fid=2; direction=3;
+        ha:text.812863 {
+         string=Silk Silk Ag-Au-Sn Dark Light; x=43.5mm; y=3.50mm; scale=30; fid=2; direction=1;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
-        ha:text.532097 {
-         string=Dark; x=42.2mm; y=21.85mm; scale=100; fid=2; direction=3;
+        ha:text.812864 {
+         string=Silk Silk Ag-Au-Sn Dark Light; x=42.0mm; y=3.50mm; scale=40; fid=2; direction=1;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
-        ha:text.532098 {
-         string=Dark; x=40.6mm; y=21.75mm; scale=100; fid=2; direction=3;
+        ha:text.812865 {
+         string=Silk Silk Ag-Au-Sn Dark Light; x=40.5mm; y=3.50mm; scale=50; fid=2; direction=1;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
-        ha:text.532099 {
-         string=Dark; x=39.2mm; y=21.85mm; scale=100; fid=2; direction=3;
+        ha:text.812866 {
+         string=Silk Silk Ag-Au-Sn Dark Light; x=38.5mm; y=3.50mm; scale=60; fid=2; direction=1;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
-        ha:text.532100 {
-         string=Dark; x=37.7mm; y=21.95mm; scale=100; fid=2; direction=3;
+        ha:text.812867 {
+         string=Silk Silk Ag-Au-Sn Dark Light; x=36.5mm; y=3.50mm; scale=70; fid=2; direction=1;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
-        ha:text.532101 {
-         string=Dark; x=36.2mm; y=22.15mm; scale=100; fid=2; direction=3;
+        ha:text.812868 {
+         string=Silk Silk Ag-Au-Sn Dark Light; x=35.0mm; y=3.50mm; scale=80; fid=2; direction=1;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
-        ha:text.532102 {
-         string=Dark; x=34.65mm; y=22.05mm; scale=100; fid=2; direction=3;
+        ha:text.812869 {
+         string=Silk Silk Ag-Au-Sn Dark Light; x=32.5mm; y=3.50mm; scale=90; fid=2; direction=1;
          ha:flags {
           clearline=1
           onsolder=1
          }
         }
-        ha:text.532103 {
-         string=Dark; x=33.0mm; y=21.85mm; scale=100; fid=2; direction=3;
-         ha:flags {
-          clearline=1
-          onsolder=1
-         }
-        }
-        ha:text.532104 {
-         string=Dark; x=46.3mm; y=21.85mm; scale=100; fid=2; direction=3;
-         ha:flags {
-          clearline=1
-          onsolder=1
-         }
-        }
-        ha:text.532105 {
-         string=Light; x=44.8mm; y=1.0019685in; scale=100; fid=2; direction=3;
-         ha:flags {
-          clearline=1
-          onsolder=1
-         }
-        }
-        ha:text.532106 {
-         string=Light; x=43.2mm; y=25.35mm; scale=100; fid=2; direction=3;
-         ha:flags {
-          clearline=1
-          onsolder=1
-         }
-        }
-        ha:text.532107 {
-         string=Light; x=41.7mm; y=25.25mm; scale=100; fid=2; direction=3;
-         ha:flags {
-          clearline=1
-          onsolder=1
-         }
-        }
-        ha:text.532108 {
-         string=Light; x=40.4mm; y=25.15mm; scale=100; fid=2; direction=3;
-         ha:flags {
-          clearline=1
-          onsolder=1
-         }
-        }
-        ha:text.532109 {
-         string=Light; x=38.9mm; y=24.95mm; scale=100; fid=2; direction=3;
-         ha:flags {
-          clearline=1
-          onsolder=1
-         }
-        }
-        ha:text.532110 {
-         string=Light; x=37.6mm; y=25.25mm; scale=100; fid=2; direction=3;
-         ha:flags {
-          clearline=1
-          onsolder=1
-         }
-        }
-        ha:text.532111 {
-         string=Light; x=34.2mm; y=25.35mm; scale=100; fid=2; direction=3;
-         ha:flags {
-          clearline=1
-          onsolder=1
-         }
-        }
-        ha:text.532112 {
-         string=Light; x=35.6mm; y=25.25mm; scale=100; fid=2; direction=3;
-         ha:flags {
-          clearline=1
-          onsolder=1
-         }
-        }
-        ha:text.532113 {
-         string=Light; x=32.7mm; y=25.65mm; scale=100; fid=2; direction=3;
-         ha:flags {
-          clearline=1
-          onsolder=1
-         }
-        }
-        ha:text.532144 {
-         string=Silk Silk Ag-Au-Sn; x=42.9mm; y=3.25mm; scale=10; fid=2; direction=1;
-         ha:flags {
-          clearline=1
-          onsolder=1
-         }
-        }
-        ha:text.532145 {
-         string=Silk Silk Ag-Au-Sn; x=42.1mm; y=3.75mm; scale=20; fid=2; direction=1;
-         ha:flags {
-          clearline=1
-          onsolder=1
-         }
-        }
-        ha:text.532146 {
-         string=Silk Silk Ag-Au-Sn; x=41.3mm; y=3.75mm; scale=30; fid=2; direction=1;
-         ha:flags {
-          clearline=1
-          onsolder=1
-         }
-        }
-        ha:text.532147 {
-         string=Silk Silk Ag-Au-Sn; x=40.4mm; y=3.85mm; scale=40; fid=2; direction=1;
-         ha:flags {
-          clearline=1
-          onsolder=1
-         }
-        }
-        ha:text.532148 {
-         string=Silk Silk Ag-Au-Sn; x=39.3mm; y=3.85mm; scale=50; fid=2; direction=1;
-         ha:flags {
-          clearline=1
-          onsolder=1
-         }
-        }
-        ha:text.532149 {
-         string=Silk Silk Ag-Au-Sn; x=38.1mm; y=4.25mm; scale=60; fid=2; direction=1;
-         ha:flags {
-          clearline=1
-          onsolder=1
-         }
-        }
-        ha:text.532150 {
-         string=Silk Silk Ag-Au-Sn; x=36.7mm; y=4.35mm; scale=70; fid=2; direction=1;
-         ha:flags {
-          clearline=1
-          onsolder=1
-         }
-        }
-        ha:text.532151 {
-         string=Silk Silk Ag-Au-Sn; x=35.3mm; y=4.45mm; scale=80; fid=2; direction=1;
-         ha:flags {
-          clearline=1
-          onsolder=1
-         }
-        }
-        ha:text.532152 {
-         string=Silk Silk Ag-Au-Sn; x=33.5mm; y=4.65mm; scale=90; fid=2; direction=1;
-         ha:flags {
-          clearline=1
-          onsolder=1
-         }
-        }
-        ha:text.532153 {
-         string=Silk Silk Ag-Au-Sn; x=31.9mm; y=4.95mm; scale=100; fid=2; direction=1;
+        ha:text.812870 {
+         string=Silk Silk Ag-Au-Sn Dark Light; x=30.0mm; y=3.50mm; scale=100; fid=2; direction=1;
          ha:flags {
           clearline=1
           onsolder=1
@@ -60858,13 +60720,13 @@ ha:pcb-rnd-board-v1 {
       group=0
 
        li:objects {
-        ha:text.491944 {
+        ha:text.812871 {
          string={$ver=}; x=15.45mm; y=25.7mm; scale=88; fid=0; direction=0;
          ha:flags {
           clearline=1
          }
         }
-        ha:text.491945 {
+        ha:text.812872 {
          string=darabok-1; x=15.55mm; y=23.95mm; scale=88; fid=0; direction=0;
          ha:flags {
           clearline=1
