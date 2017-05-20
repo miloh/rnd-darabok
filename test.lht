@@ -134,37 +134,37 @@ ha:pcb-rnd-board-v1 {
 
     ha:component {
      visible=1
-     group=1
+     group=0
     }
 
     ha:solder {
      visible=1
-     group=2
+     group=1
     }
 
     ha:comp-GND {
      visible=1
-     group=1
+     group=0
     }
 
     ha:comp-power {
      visible=1
-     group=1
+     group=0
     }
 
     ha:sold-GND {
      visible=1
-     group=3
+     group=2
     }
 
     ha:sold-power {
      visible=1
-     group=4
+     group=3
     }
 
     ha:signal3 {
      visible=1
-     group=5
+     group=4
     }
 
     ha:outline {
@@ -179,8 +179,18 @@ ha:pcb-rnd-board-v1 {
 
     ha:silk {
      visible=1
-     group=1
+     group=0
     }
+
+     ha:mask {
+      visible=1
+      group=-1
+     }
+
+     ha:masksub {
+      visible=1
+      group=-1
+     }
    }
  }
 
