@@ -213,6 +213,33 @@ ha:pcb-rnd-board-v2 {
        auto = 1
       }
     }
+
+     ha:mask {
+      visible=1
+      group=2
+       lid = 10
+       ha:combining {
+        sub = 1
+        auto = 1
+       }
+     }
+
+      ha:masksub {
+       visible=1
+       group=2
+        lid = 11
+        ha:combining {
+         sub = 1
+        }
+      }
+
+       ha:test {
+        visible=1
+        group=2
+         lid = 12
+         ha:combining {
+         }
+       }
    }
  }
 
@@ -2196,6 +2223,9 @@ ha:pcb-rnd-board-v2 {
      mask = 1
     }
     li:layers {
+      10  
+       11  
+        12  
     }
     name = top mask
    }
@@ -2218,6 +2248,7 @@ ha:pcb-rnd-board-v2 {
     }
     li:layers {
     }
+     name = grp_4
    }
    ha:5 {
     ha:type {
@@ -2236,6 +2267,7 @@ ha:pcb-rnd-board-v2 {
     }
     li:layers {
     }
+     name = grp_6
    }
    ha:7 {
     ha:type {
@@ -2254,6 +2286,7 @@ ha:pcb-rnd-board-v2 {
     }
     li:layers {
     }
+     name = grp_8
    }
    ha:9 {
     ha:type {
@@ -2272,6 +2305,7 @@ ha:pcb-rnd-board-v2 {
     }
     li:layers {
     }
+     name = grp_10
    }
    ha:11 {
     ha:type {
@@ -2290,6 +2324,7 @@ ha:pcb-rnd-board-v2 {
     }
     li:layers {
     }
+     name = grp_12
    }
    ha:13 {
     ha:type {
