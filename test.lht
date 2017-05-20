@@ -29,8 +29,8 @@ ha:pcb-rnd-board-v1 {
    {PCB::conf::plugins/hid_gtk/window_geometry/netlist_y}=0
    {PCB::conf::plugins/hid_gtk/window_geometry/top_height}=258
    {PCB::conf::plugins/hid_gtk/window_geometry/keyref_width}=0
-   {PCB::conf::plugins/hid_gtk/window_geometry/library_x}=2073
-   {PCB::conf::plugins/hid_gtk/window_geometry/library_y}=453
+   {PCB::conf::plugins/hid_gtk/window_geometry/library_x}=430
+   {PCB::conf::plugins/hid_gtk/window_geometry/library_y}=237
     {PCB::conf::editor/buffer_number}=0
  }
 
@@ -134,7 +134,7 @@ ha:pcb-rnd-board-v1 {
 
     ha:component {
      visible=1
-     group=0
+     group=1
     }
 
     ha:solder {
@@ -144,27 +144,27 @@ ha:pcb-rnd-board-v1 {
 
     ha:comp-GND {
      visible=1
-     group=0
+     group=1
     }
 
     ha:comp-power {
      visible=1
-     group=0
+     group=1
     }
 
     ha:sold-GND {
      visible=1
-     group=2
+     group=3
     }
 
     ha:sold-power {
      visible=1
-     group=2
+     group=4
     }
 
     ha:signal3 {
      visible=1
-     group=1
+     group=5
     }
 
     ha:outline {
@@ -174,12 +174,12 @@ ha:pcb-rnd-board-v1 {
 
     ha:silk {
      visible=1
-     group=2
+     group=-1
     }
 
     ha:silk {
      visible=1
-     group=0
+     group=1
     }
    }
  }
@@ -2144,9 +2144,19 @@ ha:pcb-rnd-board-v1 {
     via_thickness = 2000.00 um
     via_drilling_hole = 31.50 mil
     clearance = 20.00 mil
+     min_ring = 10.00 mil
+     min_drill = 15.00 mil
+     min_slk = 7.00 mil
+     max_height = 5.00000 in
+     shrink = 9.00 mil
+     poly_isle_area = 199999999.999200
+     max_width = 6.00000 in
+     min_wid = 10.00 mil
+     bloat = 12.00 mil
    }
    ha:editor {
      buffer_number = 0
+      grid_unit = mil
    }
    ha:plugins {
     ha:hid_gtk {
@@ -2155,8 +2165,8 @@ ha:pcb-rnd-board-v1 {
       netlist_y = 0
       pinout_x = 0
       pinout_y = 0
-      library_x = 2073
-      library_y = 453
+      library_x = 430
+      library_y = 237
       pinout_height = 0
       log_x = 37
       log_y = 64
