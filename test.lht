@@ -1,4 +1,4 @@
-ha:pcb-rnd-board-v1 {
+ha:pcb-rnd-board-v2 {
 
  ha:attributes {
    {PCB::conf::plugins/hid_gtk/window_geometry/library_width}=504
@@ -10,8 +10,8 @@ ha:pcb-rnd-board-v1 {
    {PCB::loader}=geda/pcb - nanometer
    {PCB::conf::plugins/hid_gtk/window_geometry/top_x}=0
    {PCB::conf::plugins/hid_gtk/window_geometry/top_y}=27
-   {PCB::conf::plugins/hid_gtk/window_geometry/keyref_height}=0
    {PCB::conf::plugins/hid_gtk/window_geometry/pinout_x}=0
+   {PCB::conf::plugins/hid_gtk/window_geometry/keyref_height}=0
    {PCB::conf::plugins/hid_gtk/window_geometry/pinout_y}=0
    {PCB::conf::plugins/hid_gtk/window_geometry/log_x}=37
    {PCB::conf::plugins/hid_gtk/window_geometry/log_y}=64
@@ -22,6 +22,7 @@ ha:pcb-rnd-board-v1 {
    {PCB::conf::plugins/hid_gtk/window_geometry/drc_width}=0
    {PCB::conf::plugins/hid_gtk/window_geometry/library_height}=255
    {PCB::conf::plugins/hid_gtk/window_geometry/pinout_height}=0
+   {PCB::conf::editor/buffer_number}=0
    {PCB::conf::plugins/hid_gtk/window_geometry/netlist_width}=0
    {PCB::grid::unit}=mil
    {PCB::conf::plugins/hid_gtk/window_geometry/log_width}=97
@@ -31,7 +32,6 @@ ha:pcb-rnd-board-v1 {
    {PCB::conf::plugins/hid_gtk/window_geometry/keyref_width}=0
    {PCB::conf::plugins/hid_gtk/window_geometry/library_x}=430
    {PCB::conf::plugins/hid_gtk/window_geometry/library_y}=237
-    {PCB::conf::editor/buffer_number}=0
  }
 
  li:styles {
@@ -134,63 +134,85 @@ ha:pcb-rnd-board-v1 {
 
     ha:component {
      visible=1
-     group=0
+     group=3
+      lid = 0
+      ha:combining {
+      }
     }
 
     ha:solder {
      visible=1
-     group=1
+     group=5
+      lid = 1
+      ha:combining {
+      }
     }
 
     ha:comp-GND {
      visible=1
-     group=0
+     group=3
+      lid = 2
+      ha:combining {
+      }
     }
 
     ha:comp-power {
      visible=1
-     group=0
+     group=3
+      lid = 3
+      ha:combining {
+      }
     }
 
     ha:sold-GND {
      visible=1
-     group=2
+     group=7
+      lid = 4
+      ha:combining {
+      }
     }
 
     ha:sold-power {
      visible=1
-     group=3
+     group=9
+      lid = 5
+      ha:combining {
+      }
     }
 
     ha:signal3 {
      visible=1
-     group=4
+     group=11
+      lid = 6
+      ha:combining {
+      }
     }
 
     ha:outline {
      visible=1
-     group=-1
+     group=13
+      lid = 7
+      ha:combining {
+      }
     }
 
     ha:silk {
      visible=1
-     group=-1
+     group=15
+      lid = 8
+      ha:combining {
+       auto = 1
+      }
     }
 
     ha:silk {
      visible=1
-     group=0
+     group=1
+      lid = 9
+      ha:combining {
+       auto = 1
+      }
     }
-
-     ha:mask {
-      visible=1
-      group=-1
-     }
-
-     ha:masksub {
-      visible=1
-      group=-1
-     }
    }
  }
 
@@ -2147,26 +2169,188 @@ ha:pcb-rnd-board-v1 {
    li:input {
    }
  }
+ ha:layer_stack {
+  li:groups {
+   ha:0 {
+    ha:type {
+     top = 1
+     paste = 1
+    }
+    li:layers {
+    }
+    name = top paste
+   }
+   ha:1 {
+    ha:type {
+     silk = 1
+     top = 1
+    }
+    li:layers {
+     9  
+    }
+    name = top silk
+   }
+   ha:2 {
+    ha:type {
+     top = 1
+     mask = 1
+    }
+    li:layers {
+    }
+    name = top mask
+   }
+   ha:3 {
+    ha:type {
+     copper = 1
+     top = 1
+    }
+    li:layers {
+     0  
+     2  
+     3  
+    }
+    name = top copper
+   }
+   ha:4 {
+    ha:type {
+     substrate = 1
+     intern = 1
+    }
+    li:layers {
+    }
+   }
+   ha:5 {
+    ha:type {
+     copper = 1
+     intern = 1
+    }
+    li:layers {
+     1  
+    }
+    name = Intern
+   }
+   ha:6 {
+    ha:type {
+     substrate = 1
+     intern = 1
+    }
+    li:layers {
+    }
+   }
+   ha:7 {
+    ha:type {
+     copper = 1
+     intern = 1
+    }
+    li:layers {
+     4  
+    }
+    name = Intern
+   }
+   ha:8 {
+    ha:type {
+     substrate = 1
+     intern = 1
+    }
+    li:layers {
+    }
+   }
+   ha:9 {
+    ha:type {
+     copper = 1
+     intern = 1
+    }
+    li:layers {
+     5  
+    }
+    name = Intern
+   }
+   ha:10 {
+    ha:type {
+     substrate = 1
+     intern = 1
+    }
+    li:layers {
+    }
+   }
+   ha:11 {
+    ha:type {
+     copper = 1
+     intern = 1
+    }
+    li:layers {
+     6  
+    }
+    name = Intern
+   }
+   ha:12 {
+    ha:type {
+     substrate = 1
+     intern = 1
+    }
+    li:layers {
+    }
+   }
+   ha:13 {
+    ha:type {
+     outline = 1
+     bottom = 1
+    }
+    li:layers {
+     7  
+    }
+    name = global outline
+   }
+   ha:14 {
+    ha:type {
+     bottom = 1
+     mask = 1
+    }
+    li:layers {
+    }
+    name = bottom mask
+   }
+   ha:15 {
+    ha:type {
+     silk = 1
+     bottom = 1
+    }
+    li:layers {
+     8  
+    }
+    name = bottom silk
+   }
+   ha:16 {
+    ha:type {
+     bottom = 1
+     paste = 1
+    }
+    li:layers {
+    }
+    name = bottom paste
+   }
+  }
+ }
  li:pcb-rnd-conf-v1 {
   ha:overwrite {
    ha:design {
-    line_thickness = 10.00 mil
+    min_ring = 10.00 mil
+    min_drill = 15.00 mil
     via_thickness = 2000.00 um
     via_drilling_hole = 31.50 mil
+    min_slk = 7.00 mil
+    max_height = 5.00000 in
+    line_thickness = 10.00 mil
+    shrink = 9.00 mil
+    poly_isle_area = 199999999.999200
+    max_width = 6.00000 in
+    min_wid = 10.00 mil
+    bloat = 12.00 mil
     clearance = 20.00 mil
-     min_ring = 10.00 mil
-     min_drill = 15.00 mil
-     min_slk = 7.00 mil
-     max_height = 5.00000 in
-     shrink = 9.00 mil
-     poly_isle_area = 199999999.999200
-     max_width = 6.00000 in
-     min_wid = 10.00 mil
-     bloat = 12.00 mil
    }
    ha:editor {
-     buffer_number = 0
-      grid_unit = mil
+    grid_unit = mil
+    buffer_number = 0
    }
    ha:plugins {
     ha:hid_gtk {
