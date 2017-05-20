@@ -10,9 +10,10 @@ pcb pieces created with pcb-rnd
  * reproduce traces on silk, sub-mask, and sub-Cu layers from A to B in X increment 
  * reproduction of sizes from .1mm to 1mm
  * gradients
-   - gradient from silk layer & mask layer
-   - gradient from Au-Ag-Sn to Mask
-   - gradient from Au-Ag-Sn to Sub-mask
+   - gradient from silk to mask 
+   - gradient from Au-Ag-Sn to mask (submask with opening, bitmask over opening)
+   - gradient from mask to cu  
+   - gradient from mask to bare board
  * checkerboards in M by N rectangle with X by Y squares
     - checkerboard sample area in sub-mask & mask area 
     - checkerboard sample area in conductive & mask re
