@@ -8,17 +8,17 @@ ha:pcb-rnd-board-v2 {
    {PCB::conf::plugins/hid_gtk/window_geometry/keyref_x}=0
    {PCB::conf::plugins/hid_gtk/window_geometry/keyref_y}=0
    {PCB::loader}=geda/pcb - nanometer
-   {PCB::conf::plugins/hid_gtk/window_geometry/top_x}=0
+   {PCB::conf::plugins/hid_gtk/window_geometry/top_x}=661
    {PCB::conf::plugins/hid_gtk/window_geometry/top_y}=27
    {PCB::conf::plugins/hid_gtk/window_geometry/pinout_x}=0
    {PCB::conf::plugins/hid_gtk/window_geometry/keyref_height}=0
    {PCB::conf::plugins/hid_gtk/window_geometry/pinout_y}=0
-   {PCB::conf::plugins/hid_gtk/window_geometry/log_x}=37
-   {PCB::conf::plugins/hid_gtk/window_geometry/log_y}=64
+   {PCB::conf::plugins/hid_gtk/window_geometry/log_x}=0
+   {PCB::conf::plugins/hid_gtk/window_geometry/log_y}=27
    {PCB::conf::plugins/hid_gtk/window_geometry/log_height}=98
    {PCB::conf::plugins/hid_gtk/window_geometry/drc_x}=0
    {PCB::conf::plugins/hid_gtk/window_geometry/drc_y}=0
-   {PCB::conf::plugins/hid_gtk/window_geometry/top_width}=673
+   {PCB::conf::plugins/hid_gtk/window_geometry/top_width}=690
    {PCB::conf::plugins/hid_gtk/window_geometry/drc_width}=0
    {PCB::conf::plugins/hid_gtk/window_geometry/library_height}=255
    {PCB::conf::plugins/hid_gtk/window_geometry/pinout_height}=0
@@ -28,7 +28,7 @@ ha:pcb-rnd-board-v2 {
    {PCB::conf::plugins/hid_gtk/window_geometry/log_width}=97
    {PCB::conf::plugins/hid_gtk/window_geometry/netlist_x}=0
    {PCB::conf::plugins/hid_gtk/window_geometry/netlist_y}=0
-   {PCB::conf::plugins/hid_gtk/window_geometry/top_height}=258
+   {PCB::conf::plugins/hid_gtk/window_geometry/top_height}=704
    {PCB::conf::plugins/hid_gtk/window_geometry/keyref_width}=0
    {PCB::conf::plugins/hid_gtk/window_geometry/library_x}=430
    {PCB::conf::plugins/hid_gtk/window_geometry/library_y}=237
@@ -129,6 +129,44 @@ ha:pcb-rnd-board-v2 {
       }
      }
     }
+    ha:element.2629 {
+     x=40.005mm; y=26.035mm;
+     li:objects {
+      ha:text.2626 {
+       string={bitmap(text=/home/miloh/repos/rnd-darabok/4_4_checkerboard.pbm, pixel_size=2.5000mm)}; x=40.005mm; y=975.0mil; scale=100; fid=0; direction=0; role=desc;
+      }
+      ha:text.2627 {
+       string=BM1; x=40.005mm; y=975.0mil; scale=100; fid=0; direction=0; role=name;
+      }
+      ha:text.2628 {
+       string=bitmap(/home/miloh/repos/rnd-darabok/4_4_checkerboard.pbm,2.5000mm); x=40.005mm; y=975.0mil; scale=100; fid=0; direction=0; role=value;
+      }
+      ha:line.2630 {
+       x1=4.99999mm; y1=0.0; x2=4.99999mm; y2=0.0; thickness=98.42mil; clearance=0.0;
+      }
+      ha:line.2631 {
+       x1=7.499858mm; y1=0.0; x2=7.499858mm; y2=0.0; thickness=98.42mil; clearance=0.0;
+      }
+      ha:line.2632 {
+       x1=4.99999mm; y1=98.42mil; x2=4.99999mm; y2=98.42mil; thickness=98.42mil; clearance=0.0;
+      }
+      ha:line.2633 {
+       x1=7.499858mm; y1=98.42mil; x2=7.499858mm; y2=98.42mil; thickness=98.42mil; clearance=0.0;
+      }
+      ha:line.2634 {
+       x1=0.0; y1=4.99999mm; x2=0.0; y2=4.99999mm; thickness=98.42mil; clearance=0.0;
+      }
+      ha:line.2635 {
+       x1=98.42mil; y1=4.99999mm; x2=98.42mil; y2=4.99999mm; thickness=98.42mil; clearance=0.0;
+      }
+      ha:line.2636 {
+       x1=0.0; y1=7.499858mm; x2=0.0; y2=7.499858mm; thickness=98.42mil; clearance=0.0;
+      }
+      ha:line.2637 {
+       x1=98.42mil; y1=7.499858mm; x2=98.42mil; y2=7.499858mm; thickness=98.42mil; clearance=0.0;
+      }
+     }
+    }
    }
    li:layers {
 
@@ -196,10 +234,90 @@ ha:pcb-rnd-board-v2 {
       }
     }
 
+
+     ha:masksub {
+      visible=1
+      group=2
+
+       li:objects {
+        ha:line.2326 {
+         x1=57.06999mm; y1=38.1mm; x2=57.06999mm; y2=38.1mm; thickness=98.42mil; clearance=0.0;
+        }
+        ha:line.2329 {
+         x1=2.34527in; y1=38.1mm; x2=2.34527in; y2=38.1mm; thickness=98.42mil; clearance=0.0;
+        }
+        ha:line.2332 {
+         x1=57.06999mm; y1=1.59842in; x2=57.06999mm; y2=1.59842in; thickness=98.42mil; clearance=0.0;
+        }
+        ha:line.2335 {
+         x1=2.34527in; y1=1.59842in; x2=2.34527in; y2=1.59842in; thickness=98.42mil; clearance=0.0;
+        }
+        ha:line.2338 {
+         x1=52.07mm; y1=1.69685in; x2=52.07mm; y2=1.69685in; thickness=98.42mil; clearance=0.0;
+        }
+        ha:line.2341 {
+         x1=2.14842in; y1=1.69685in; x2=2.14842in; y2=1.69685in; thickness=98.42mil; clearance=0.0;
+        }
+        ha:line.2344 {
+         x1=52.07mm; y1=45.599858mm; x2=52.07mm; y2=45.599858mm; thickness=98.42mil; clearance=0.0;
+        }
+        ha:line.2347 {
+         x1=2.14842in; y1=45.599858mm; x2=2.14842in; y2=45.599858mm; thickness=98.42mil; clearance=0.0;
+        }
+        ha:line.2770 {
+         x1=95.16999mm; y1=60.325mm; x2=95.16999mm; y2=60.325mm; thickness=98.42mil; clearance=0.0;
+        }
+        ha:line.2773 {
+         x1=3.84527in; y1=60.325mm; x2=3.84527in; y2=60.325mm; thickness=98.42mil; clearance=0.0;
+        }
+        ha:line.2776 {
+         x1=95.16999mm; y1=62.824868mm; x2=95.16999mm; y2=62.824868mm; thickness=98.42mil; clearance=0.0;
+        }
+        ha:line.2779 {
+         x1=3.84527in; y1=62.824868mm; x2=3.84527in; y2=62.824868mm; thickness=98.42mil; clearance=0.0;
+        }
+        ha:line.2782 {
+         x1=90.17mm; y1=2.57185in; x2=90.17mm; y2=2.57185in; thickness=98.42mil; clearance=0.0;
+        }
+        ha:line.2785 {
+         x1=3.64842in; y1=2.57185in; x2=3.64842in; y2=2.57185in; thickness=98.42mil; clearance=0.0;
+        }
+        ha:line.2788 {
+         x1=90.17mm; y1=67.824858mm; x2=90.17mm; y2=67.824858mm; thickness=98.42mil; clearance=0.0;
+        }
+        ha:line.2791 {
+         x1=3.64842in; y1=67.824858mm; x2=3.64842in; y2=67.824858mm; thickness=98.42mil; clearance=0.0;
+        }
+       }
+       lid = 8
+       ha:combining {
+        sub = 1
+       }
+     }
+
+
+      ha:maskpos {
+       visible=1
+       group=2
+
+        lid = 9
+        ha:combining {
+        }
+      }
+     ha:mask {
+      visible=1
+      group=2
+
+       lid = 10
+       ha:combining {
+        sub = 1
+        auto = 1
+       }
+     }
     ha:silk {
      visible=1
      group=15
-      lid = 8
+      lid = 11
       ha:combining {
        auto = 1
       }
@@ -208,38 +326,13 @@ ha:pcb-rnd-board-v2 {
     ha:silk {
      visible=1
      group=1
-      lid = 9
+      lid = 12
       ha:combining {
        auto = 1
       }
+
     }
 
-     ha:mask {
-      visible=1
-      group=2
-       lid = 10
-       ha:combining {
-        sub = 1
-        auto = 1
-       }
-     }
-
-      ha:masksub {
-       visible=1
-       group=2
-        lid = 11
-        ha:combining {
-         sub = 1
-        }
-      }
-
-       ha:test {
-        visible=1
-        group=2
-         lid = 12
-         ha:combining {
-         }
-       }
    }
  }
 
@@ -2213,7 +2306,7 @@ ha:pcb-rnd-board-v2 {
      top = 1
     }
     li:layers {
-     9  
+     12  
     }
     name = top silk
    }
@@ -2224,8 +2317,8 @@ ha:pcb-rnd-board-v2 {
     }
     li:layers {
       10  
-       11  
-        12  
+       8  
+        9  
     }
     name = top mask
    }
@@ -2351,7 +2444,7 @@ ha:pcb-rnd-board-v2 {
      bottom = 1
     }
     li:layers {
-     8  
+     11  
     }
     name = bottom silk
    }
@@ -2397,16 +2490,16 @@ ha:pcb-rnd-board-v2 {
       library_x = 430
       library_y = 237
       pinout_height = 0
-      log_x = 37
-      log_y = 64
+      log_x = 0
+      log_y = 27
       netlist_width = 0
       drc_x = 0
       drc_y = 0
       netlist_height = 0
-      top_height = 258
+      top_height = 704
       library_width = 504
       drc_height = 0
-      top_width = 673
+      top_width = 690
       drc_width = 0
       keyref_width = 0
       keyref_height = 0
@@ -2415,7 +2508,7 @@ ha:pcb-rnd-board-v2 {
       keyref_y = 0
       log_width = 97
       library_height = 255
-      top_x = 0
+      top_x = 661
       top_y = 27
       log_height = 98
      }
