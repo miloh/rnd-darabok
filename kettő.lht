@@ -19,11 +19,11 @@ ha:pcb-rnd-board-v1 {
     {PCB::conf::plugins/hid_gtk/window_geometry/log_height}=98
     {PCB::conf::plugins/hid_gtk/window_geometry/drc_x}=0
     {PCB::conf::plugins/hid_gtk/window_geometry/drc_y}=0
-    {PCB::conf::plugins/hid_gtk/window_geometry/top_width}=685
+    {PCB::conf::plugins/hid_gtk/window_geometry/top_width}=677
     {PCB::conf::plugins/hid_gtk/window_geometry/drc_width}=0
     {PCB::conf::plugins/hid_gtk/window_geometry/library_height}=0
     {PCB::conf::plugins/hid_gtk/window_geometry/pinout_height}=0
-    {PCB::conf::editor/grid}=50.00 um
+    {PCB::conf::editor/grid}=10.00 um
     {PCB::conf::plugins/hid_gtk/window_geometry/netlist_width}=0
     {PCB::conf::plugins/hid_gtk/window_geometry/log_width}=97
     {PCB::conf::plugins/hid_gtk/window_geometry/netlist_x}=0
@@ -32,6 +32,8 @@ ha:pcb-rnd-board-v1 {
     {PCB::conf::plugins/hid_gtk/window_geometry/keyref_width}=0
     {PCB::conf::plugins/hid_gtk/window_geometry/library_x}=0
     {PCB::conf::plugins/hid_gtk/window_geometry/library_y}=0
+     {PCB::conf::editor/route_radius}=3.500000
+     {PCB::conf::editor/line_refraction}=1
  }
 
  li:styles {
@@ -55,7 +57,7 @@ ha:pcb-rnd-board-v1 {
    }
    ha:Sig-tight {
     diameter = 64.0mil
-    thickness = 10.0mil
+    thickness = 0.4mm
     hole = 31.5mil
     clearance = 12.0mil
    }
@@ -82,7 +84,7 @@ ha:pcb-rnd-board-v1 {
     min_silk = 7.0mil
    }
    ha:grid {
-    spacing = 0.05mm
+    spacing = 0.01mm
     offs_x = 0.025mm
     offs_y = 0.01mm
    }
@@ -92,7 +94,7 @@ ha:pcb-rnd-board-v1 {
 
    li:objects {
     ha:via.5 {
-     x=60.325mm; y=1.9in; hole=30.0mm; mask=0.0; thickness=30.0mm; clearance=40.0mil;
+     x=60.325mm; y=1.9in; hole=591.1023622mil; mask=0.0; thickness=29.746mm; clearance=40.0mil;
      ha:flags {
       via=1
       square=1
@@ -140,6 +142,111 @@ ha:pcb-rnd-board-v1 {
     ha:outline {
      group=-1
      visible=1
+
+      li:objects {
+       ha:line.30 {
+        x1=60.335mm; y1=33.39mm; x2=65.925102mm; y2=33.39mm; thickness=0.4mm; clearance=24.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.37 {
+        x1=66.915051mm; y1=33.800051mm; x2=74.784949mm; y2=41.669949mm; thickness=0.4mm; clearance=24.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.44 {
+        x1=75.195mm; y1=42.659898mm; x2=75.195mm; y2=53.840102mm; thickness=0.4mm; clearance=24.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.51 {
+        x1=74.784949mm; y1=54.830051mm; x2=66.895051mm; y2=62.719949mm; thickness=0.4mm; clearance=24.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.58 {
+        x1=65.905102mm; y1=63.13mm; x2=54.744898mm; y2=63.13mm; thickness=0.4mm; clearance=24.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.65 {
+        x1=53.754949mm; y1=62.719949mm; x2=45.865051mm; y2=54.830051mm; thickness=0.4mm; clearance=24.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.72 {
+        x1=45.455mm; y1=53.840102mm; x2=45.455mm; y2=42.679898mm; thickness=0.4mm; clearance=24.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.79 {
+        x1=45.865051mm; y1=41.689949mm; x2=53.754949mm; y2=33.800051mm; thickness=0.4mm; clearance=24.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.83 {
+        x1=54.744898mm; y1=33.39mm; x2=2.3757874in; y2=33.39mm; thickness=0.4mm; clearance=24.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:arc.33 {
+        x=65.925102mm; y=34.79mm; width=1.4mm; height=1.4mm; astart=-90; adelta=-45; thickness=0.4mm; clearance=24.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:arc.40 {
+        x=73.795mm; y=42.659898mm; width=1.4mm; height=1.4mm; astart=225; adelta=-45; thickness=0.4mm; clearance=24.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:arc.47 {
+        x=73.795mm; y=53.840102mm; width=1.4mm; height=1.4mm; astart=180; adelta=-45; thickness=0.4mm; clearance=24.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:arc.54 {
+        x=65.905102mm; y=61.73mm; width=1.4mm; height=1.4mm; astart=135; adelta=-45; thickness=0.4mm; clearance=24.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:arc.61 {
+        x=54.744898mm; y=61.73mm; width=1.4mm; height=1.4mm; astart=90; adelta=-45; thickness=0.4mm; clearance=24.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:arc.68 {
+        x=46.855mm; y=53.840102mm; width=1.4mm; height=1.4mm; astart=45; adelta=-45; thickness=0.4mm; clearance=24.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:arc.75 {
+        x=46.855mm; y=42.679898mm; width=1.4mm; height=1.4mm; astart=0; adelta=-45; thickness=0.4mm; clearance=24.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:arc.82 {
+        x=54.744898mm; y=34.79mm; width=1.4mm; height=1.4mm; astart=-45; adelta=-45; thickness=0.4mm; clearance=24.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+      }
     }
 
     ha:silk {
@@ -2110,15 +2217,19 @@ ha:pcb-rnd-board-v1 {
  li:pcb-rnd-conf-v1 {
   ha:overwrite {
    ha:design {
-    line_thickness = 10.00 mil
+    line_thickness = 400.00 um
     via_thickness = 64.00 mil
     via_drilling_hole = 31.50 mil
     clearance = 12.00 mil
+     routes = {Signal,1000,7874,3150,2000Power,2000,8661,3937,2000:Fat,8000,13780,4724,2500:Sig-tight,1575,6400,3150,1200:}
    }
    ha:editor {
     grid_unit = mm
      snap_pin = false
-     grid = 50.00 um
+     grid = 10.00 um
+      rubber_band_mode = true
+      line_refraction = 2
+      route_radius = 3.500000
    }
    ha:plugins {
     ha:hid_gtk {
@@ -2139,7 +2250,7 @@ ha:pcb-rnd-board-v1 {
       top_height = 258
       library_width = 0
       drc_height = 0
-      top_width = 685
+      top_width = 677
       drc_width = 0
       keyref_width = 0
       keyref_height = 0
