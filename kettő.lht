@@ -33,7 +33,7 @@ ha:pcb-rnd-board-v1 {
     {PCB::conf::plugins/hid_gtk/window_geometry/library_x}=0
     {PCB::conf::plugins/hid_gtk/window_geometry/library_y}=0
      {PCB::conf::editor/route_radius}=3.500000
-     {PCB::conf::editor/line_refraction}=1
+     {PCB::conf::editor/line_refraction}=2
  }
 
  li:styles {
@@ -93,14 +93,6 @@ ha:pcb-rnd-board-v1 {
  ha:data {
 
    li:objects {
-    ha:via.5 {
-     x=60.325mm; y=1.9in; hole=591.1023622mil; mask=0.0; thickness=29.746mm; clearance=40.0mil;
-     ha:flags {
-      via=1
-      square=1
-      shape=17
-     }
-    }
    }
    li:layers {
 
@@ -2225,7 +2217,7 @@ ha:pcb-rnd-board-v1 {
    }
    ha:editor {
     grid_unit = mm
-     snap_pin = false
+     snap_pin = true
      grid = 10.00 um
       rubber_band_mode = true
       line_refraction = 2
